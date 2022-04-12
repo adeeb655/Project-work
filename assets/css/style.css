@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: skyblue;
+}
+
+.wraper {
+  margin: o auto;
+}
+
+.container {
+  max-width: 335px;
+  margin: 0 auto;
+}
+
+.verification {
+  background-color: white;
+  max-width: 373px;
+  margin: 0 auto;
+  text-align: center;
+}
+.verification .lock {
+  margin-top: 25px;
+}
+.verification h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 17px;
+  color: #002953;
+  margin-top: 20px;
+}
+.verification p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #999999;
+  margin-top: 10px;
+}
+.verification .password input[type=text] {
+  width: 41px;
+  border: none;
+  border-bottom: 1px solid #1A1A1A;
+  background: transparent;
+  margin: 80px 5px 14px 5px;
+}
+.verification .resend {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin: 10px 9px 0px 0px;
+  opacity: 0.5;
+}
+.verification .resend .resend-btn {
+  background-color: transparent;
+  color: #FF6700;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: right;
+  border: none;
+}
+.verification .resend span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #999999;
+  margin-top: 5px;
+}
+.verification .btn {
+  background: linear-gradient(96.33deg, #FF6700 -35.9%, #FE8E0C 107.31%);
+  padding: 11.5px 10px;
+  border-radius: 82px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+  border: none;
+  width: 100%;
+  margin: 40px 0px 20px 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
